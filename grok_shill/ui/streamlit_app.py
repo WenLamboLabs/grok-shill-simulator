@@ -45,10 +45,12 @@ INFLUENCER_EXAMPLES = [
 	'YashasEdu'
 ]
 
-# Configure page title and icon
-st.set_page_config(page_title='Grok Shill Simulator', page_icon='👀')
+
 
 def main():
+	# Configure page title and icon
+	st.set_page_config(page_title='Grok Shill Simulator', page_icon='👀')
+
 	st.title('Grok Shill Simulator')
 	st.markdown('Cook alpha posts that actually move markets. Analyze any project + mimic top CT influencers. Built by [WenLambo Labs](https://wenl.ai/blog/grok-shill-simulator).')
 
